@@ -4,5 +4,6 @@ export interface Evento {
     data: string,
     tema: string,
     qtdPessoas: number,
-    lote: string
+    lote: string,
+    imagemURL: string
 }

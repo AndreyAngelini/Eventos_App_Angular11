@@ -8,7 +8,7 @@ import { HeaderData } from './header.data.model';
 export class HeaderService {
 
   private _headerData = new BehaviorSubject<HeaderData>({
-    title: 'Início',
+    title: 'App Eventos com Angular 11 e .Net Core 2.2',
     icon: 'Home',
     routeUrl: ''
   })
